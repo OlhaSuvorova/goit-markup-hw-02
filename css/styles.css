@@ -63,6 +63,7 @@ body {
   letter-spacing: 0.02em;
   /* color: #ffffff; */
 }
+/* ..........................Batton............................ */
 .modal-btn {
   font-weight: 500;
   font-size: 16px;
@@ -79,15 +80,15 @@ body {
   background-color: #404bbf;
   color: #ffffff;
 }
-/* ........................Advantages.................. */
-.advantages-title {
+/* ........................Features.................. */
+.el-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.advantages-description {
+.el-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -95,3 +96,15 @@ body {
   color: #434455;
 }
 /* .............................About....................... */
+.title-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.description-align {
+  text-align: center;
+}
