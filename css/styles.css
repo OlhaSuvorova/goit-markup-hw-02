@@ -97,21 +97,22 @@ body {
   color: #ffffff;
 }
 .portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--accent);
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-pressed-state);
-  color: #e7e9fc;
+  color: var(--primary-color);
 }
 
 /* ........................Features.................. */
@@ -153,4 +154,21 @@ body {
 .address-footer {
   background: var(--secondary-bg-color);
   color: #f4f4fd;
+}
+/* .galerry-card {
+  в портфолио ссылки в каточках
+} */
+.gallery-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-main-text);
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
 }
