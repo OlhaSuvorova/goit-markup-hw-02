@@ -106,6 +106,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
+  color: var(--accent);
   cursor: pointer;
 }
 
