@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #ffffff;
+  --color-main-text: #2e2f42;
+  --color-secondary-text: #434455;
+  --accent: #4d5ae5;
+  --accent-pressed-state: #404bbf;
+}
+
 body {
   background: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -21,10 +29,10 @@ body {
   text-decoration: none;
 }
 .accent {
-  color: #4d5ae5;
+  color: var(--accent);
 }
 .second-accent {
-  color: #2e2f42;
+  color: var(--color-main-text);
 }
 .third-accent {
   color: #f4f4fd;
@@ -35,34 +43,32 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-main-text);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-pressed-state);
 }
 /* .......................Contact..................... */
 .contact-email {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-secondary-text);
 }
 .contact-email:hover,
 .contact-email:focus {
-  color: #404bbf;
+  color: var(--accent-pressed-state);
 }
 .contact-phone-number {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-secondary-text);
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus {
-  color: #404bbf;
+  color: var(--accent-pressed-state);
 }
 /* ........................Hero................. */
 .hero-title {
@@ -73,7 +79,7 @@ body {
   letter-spacing: 0.02em;
   /* color: #ffffff; */
 }
-/* ..........................Batton............................ */
+/* ..........................Battons............................ */
 .modal-btn {
   font-weight: 500;
   font-size: 16px;
@@ -82,28 +88,45 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--accent);
   color: #ffffff;
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-pressed-state);
   color: #ffffff;
 }
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-pressed-state);
+  color: #e7e9fc;
+}
+
 /* ........................Features.................. */
 .el-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-main-text);
 }
 .el-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-secondary-text);
 }
 /* .............................About Team....................... */
 .title-item {
@@ -113,30 +136,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-main-text);
 }
 .description-align {
   text-align: center;
 }
 .section-team {
   background: #f4f4fd;
-}
-/* ...................File Portfolio.................. */
-
-.portfolio-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  cursor: pointer;
-}
-
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  background-color: #404bbf;
-  color: #e7e9fc;
 }
