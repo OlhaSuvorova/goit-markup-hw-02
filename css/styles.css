@@ -54,24 +54,14 @@ body {
   color: var(--accent-pressed-state);
 }
 /* .......................Contact..................... */
-.contact-email {
+.contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
 }
-.contact-email:hover,
-.contact-email:focus {
-  color: var(--accent-pressed-state);
-}
-.contact-phone-number {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-secondary-text);
-}
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-pressed-state);
 }
 /* ........................Hero................. */
@@ -90,6 +80,7 @@ body {
 }
 /* ..........................Battons............................ */
 .modal-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -152,4 +143,14 @@ body {
 }
 .section-team {
   background: #f4f4fd;
+}
+/* .section-list {
+В секции Our Team
+} */
+.card-bg {
+  background: var(--primary-color);
+}
+.address-footer {
+  background: var(--secondary-bg-color);
+  color: #f4f4fd;
 }
