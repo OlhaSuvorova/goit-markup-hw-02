@@ -1,11 +1,13 @@
+body {
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
-}
-body {
-  font-family: 'Roboto', sans-serif;
 }
 
 /* ............................Logotype................... */
@@ -14,10 +16,18 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.accent {
+  color: #4d5ae5;
+}
+.second-accent {
+  color: #2e2f42;
+}
+.third-accent {
+  color: #f4f4fd;
 }
 /* ...........................Navigation.................... */
 .menu-link {
@@ -95,7 +105,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* .............................About....................... */
+/* .............................About Team....................... */
 .title-item {
   font-weight: 700;
   font-size: 36px;
@@ -107,4 +117,26 @@ body {
 }
 .description-align {
   text-align: center;
+}
+.section-team {
+  background: #f4f4fd;
+}
+/* ...................File Portfolio.................. */
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #404bbf;
+  color: #e7e9fc;
 }
